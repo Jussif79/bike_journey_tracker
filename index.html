@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Location Tracking</title>
+    <title>Bike Journey Tracker</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -15,10 +15,10 @@
   <body>
     <div id="map"></div>
     <div id="controls">
-      <button id="trackLocation">Track Location</button>
-      <button id="showRoute">Show Route</button>
-      <button id="showVelocity">Show Velocity</button>
+      <button id="startJourney">Start Journey</button>
+      <button id="stopJourney" disabled>Stop Journey</button>
       <div id="coordinates">Coordinates: Not available</div>
+      <div id="velocity">Velocity: 0 km/h</div>
     </div>
     <!-- Leaflet Script -->
     <script
