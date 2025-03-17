@@ -62,3 +62,38 @@ body {
       border-top: none;
     }
   }
+
+  #savedJourneys {
+    margin-top: 20px;
+  }
+  
+  #journeyList {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  #viewJourney {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  #journeyDetails {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #journeyDetails h3 {
+    margin-top: 0;
+  }
+  
+  #detailsName,
+  #detailsDuration,
+  #detailsAvgVelocity {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+  }
