@@ -11,13 +11,6 @@ Bike Journey Tracker ist eine Webanwendung, die es Benutzern ermöglicht, ihre F
 - Berechnung der Geschwindigkeit in km/h
 - Speichern und Laden vergangener Fahrten
 - Anzeige von Durchschnittsgeschwindigkeit und Dauer einer Fahrt
-- Responsives Design für Desktop und mobile Geräte
-
-## Technologien
-
-- HTML, CSS, JavaScript für die Benutzeroberfläche und Interaktion
-- Leaflet.js für die Kartenanzeige
-- Geolocation API zur Standortverfolgung
 
 ## Verwendung
 
